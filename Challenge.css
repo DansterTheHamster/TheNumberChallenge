@@ -1,0 +1,23 @@
+#error {
+    color:red;
+}
+
+body {
+ background-color:rgb(136, 201, 218);
+}
+
+.papa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: cornsilk;
+    padding: 50px;
+}
